@@ -12,5 +12,11 @@ namespace WebApi.Controllers
         {
             return "Some staff here";
         }
+
+        [HttpPost]
+        public string Get(Personne p)
+        {
+            return "Some staff here";
+        }
     }
 }
